@@ -6,6 +6,7 @@ Using AWS Lambda + Cloudwatch Crons to reload images, probably elasticache (usin
 # Clarifications
  * "The app should fetch the entire load of images information upon initialization and perform cache reload once in a defined (configurable) period of time.". As this is not clear, I did it every X amount of minutes. 
  * Also the npm start is a nodemon command, for production I shouldn't be using nodemon.
+ * I didn't use git branches as it is a short project expecting to have it in less than two hours.
 
 ## Features
 
